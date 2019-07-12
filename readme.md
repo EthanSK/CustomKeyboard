@@ -1,7 +1,7 @@
 ##### Custom Keyboard
 ### Written in Swift 5
 
-![Screenshot](storeAssets/screenshot.png)<!-- .element height="25%" width="25%" -->
+![Screenshot](storeAssets/screenshot.png)<!-- .element height="10%" width="10%" -->
 
 
 A simple keyboard extension for iOS  written Swift 5. 
