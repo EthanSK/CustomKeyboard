@@ -10,7 +10,6 @@
 		38BD213422D5907F00C6795D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD213322D5907F00C6795D /* AppDelegate.swift */; };
 		38BD213622D5907F00C6795D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD213522D5907F00C6795D /* ViewController.swift */; };
 		38BD213922D5907F00C6795D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BD213722D5907F00C6795D /* Main.storyboard */; };
-		38BD213C22D5907F00C6795D /* EmojiKeyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38BD213A22D5907F00C6795D /* EmojiKeyboard.xcdatamodeld */; };
 		38BD213E22D5908100C6795D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BD213D22D5908100C6795D /* Assets.xcassets */; };
 		38BD214122D5908100C6795D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BD213F22D5908100C6795D /* LaunchScreen.storyboard */; };
 		38BD214F22D592CA00C6795D /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD214E22D592CA00C6795D /* KeyboardViewController.swift */; };
@@ -49,7 +48,6 @@
 		38BD213322D5907F00C6795D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38BD213522D5907F00C6795D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38BD213822D5907F00C6795D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		38BD213B22D5907F00C6795D /* EmojiKeyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmojiKeyboard.xcdatamodel; sourceTree = "<group>"; };
 		38BD213D22D5908100C6795D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38BD214022D5908100C6795D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38BD214222D5908100C6795D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				38BD213D22D5908100C6795D /* Assets.xcassets */,
 				38BD213F22D5908100C6795D /* LaunchScreen.storyboard */,
 				38BD214222D5908100C6795D /* Info.plist */,
-				38BD213A22D5907F00C6795D /* EmojiKeyboard.xcdatamodeld */,
 			);
 			path = CustomKeyboard;
 			sourceTree = "<group>";
@@ -225,7 +222,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BD213C22D5907F00C6795D /* EmojiKeyboard.xcdatamodeld in Sources */,
 				38BD213622D5907F00C6795D /* ViewController.swift in Sources */,
 				38BD213422D5907F00C6795D /* AppDelegate.swift in Sources */,
 			);
@@ -496,19 +492,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		38BD213A22D5907F00C6795D /* EmojiKeyboard.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				38BD213B22D5907F00C6795D /* EmojiKeyboard.xcdatamodel */,
-			);
-			currentVersion = 38BD213B22D5907F00C6795D /* EmojiKeyboard.xcdatamodel */;
-			path = EmojiKeyboard.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 38BD212822D5907E00C6795D /* Project object */;
 }
